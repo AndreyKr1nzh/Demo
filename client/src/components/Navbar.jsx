@@ -33,10 +33,9 @@ export default function Navbar() {
             </Nav.Link>
           </Nav>
 
-          {/* Кнопки авторизации */}
           <div className="d-flex gap-2">
-            <Button variant="outline-primary">Войти</Button>
-            <Button variant="primary">Регистрация</Button>
+            <Button as={Link} to="/login" variant="outline-primary">Войти</Button>
+            <Button as={Link} to="/register" variant="primary">Регистрация</Button>
           </div>
         </BSNavbar.Collapse>
       </Container>

@@ -4,7 +4,7 @@ import './Home.css';
 export default function Home() {
   return (
     <div className="home">
-      <h1>Страница </h1>
+      <h1>Читай только у нас</h1>
 
       <div className="home-carousel">
         <Carousel>
